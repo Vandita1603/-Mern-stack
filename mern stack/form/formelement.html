@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#">
+        <label for="cars">Choose a car:</label>
+        <select name="cars" id="cars">
+            <option value="volvo">volvo</option>
+            <option value="saab">Saab</option>
+            <option value="fiat">Fiat</option>
+            <option value="audi">Audi</option>
+        </select>
+        <input type="submit" />
+    </form>
+    <br/>
+    <br/>
+
+    <form action="#">
+        <label for="cars">Choose a car:</label>
+        <select name="cars" id="cars" size="3">
+            <option value="volvo">volvo</option>
+            <option value="saab">Saab</option>
+            <option value="fiat">Fiat</option>
+            <option value="audi">Audi</option>
+        </select>
+        <br/>
+        <input type="submit" />
+    </form>
+    <br/>
+    <br/>
+
+    <form action="#">
+        <label for="cars">Choose a car:</label>
+        <select name="cars" id="cars" size="4" multiple>
+            <option value="volvo">volvo</option>
+            <option value="saab">Saab</option>
+            <option value="fiat">Fiat</option>
+            <option value="audi">Audi</option>
+        </select>
+        <br/>
+        <input type="submit" />
+    </form>
+
+    <form action="#">
+        <textarea name="message" rows="10" cols="40">the cat was playing in the garden. 
+        </textarea>
+
+    </form>
+
+    <form action="#">
+        <fieldset>
+            <legend>My Form</legend>
+            <label for="fname">First Name:</label><br/>
+            <input type="text" name="fn" />
+            <br/>
+            
+            <label for="lname">Last Name:</label><br/>
+            <input type="text" name="ln" />
+            <br/>
+           
+            <label for="email">Email:</label><br/>
+            <input type="email" name="em" />
+            <br/>
+          
+            <label for="pswd">Password:</label><br/>
+            <input type="password" name="ps" />
+           <br/>
+        </fieldset>
+    </form>
+    <br/>
+    <br/>
+
+    <form action="#" oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+        0
+        <input type="range" name="a" id="a" value="50" />
+        100+
+        <input type="number" name="b" id="b" value="50">
+        =
+        <output name="x" for="a b"></output>
+        <br/>
+        <br/>
+    </form>
+</body>
+</html>

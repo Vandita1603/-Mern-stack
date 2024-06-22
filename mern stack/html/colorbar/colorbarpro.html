@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>color picker with range</title>
+    <link rel="stylesheet" href="colorStyles.css">
+    <!-- <style>
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100dvh;
+    }
+    .output {
+        border: 1px solid #000;
+        width: 50%;
+        height: 200px;
+    }
+    </style> -->
+</head>
+<body>
+    <h1><b>COLOR PICKER WITH RANGE</b></h1>
+
+    <label>Red</label>
+    <input type="range" min="0" max="255" value="0" />
+    <label>Green</label>
+    <input type="range" min="0" max="255" value="0" />
+    <label>Blue</label>
+    <input type="range" min="0" max="255" value="0" />
+
+    <br>
+    <div class="output"></div>
+    <h3 class="colorCode"></h3>
+
+</body>
+<script src="colorChange.js"></script>
+
+</html>

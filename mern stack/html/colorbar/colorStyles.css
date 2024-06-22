@@ -1,0 +1,18 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100dvh;
+    /* background-color: bisque; */
+    background-color: rgb(255, 224, 195);
+  }
+  h1{
+    color: darkblue;
+    background-color:rgb(166, 141, 193);
+  }
+  .output {
+    border: 5px solid #000;
+    width: 50%;
+    height: 200px;
+  }

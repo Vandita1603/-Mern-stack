@@ -1,0 +1,16 @@
+.area{
+    height: 10px;
+    width: 100px;
+    background-color: blue;
+    margin: 20px;
+    padding: 0px;
+}
+
+#box-translation{
+    transform: 
+    translate(100px,100px);
+}
+
+#box-rotation{
+    transform: rotate(45deg);
+}

@@ -1,0 +1,53 @@
+p{
+    color: rgb(146, 27, 27);
+    background-color: rgb(170, 170, 219);
+}
+
+/* class selector */
+.vsics{
+    color: yellow;
+    background-color: rgb(45, 45, 220);
+}
+/* id selector */
+#ide{
+    color: chocolate;
+    background-color: rgb(77, 7, 51);
+}
+
+/* attribte selector */
+a[href="abc.com"]{
+    color: rgb(255, 0, 247);
+    background-color: yellow;
+}
+a[href="xyz.id"]{
+    color: rgb(168, 168, 228);
+    background-color: rgb(25, 113, 39);
+}
+
+/* grouping selector */
+b,i,u{
+    color: brown;
+    background-color: rgb(53, 181, 159);
+}
+
+/* descendent selectoor  */
+header h3, header p{
+
+    color: yellow;
+    background-color: rgb(214, 114, 114);
+}
+/* child selector */
+article > main > p{
+    color: cadetblue;
+    background-color: brown;
+}
+article > p{
+    color: cadetblue;
+    background-color: brown;
+}
+
+/* adjacent selector */
+h6+small+small+small{
+    color: gold;
+    background-color: indigo;
+}

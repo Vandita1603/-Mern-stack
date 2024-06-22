@@ -1,0 +1,22 @@
+body{
+    /* background: */
+    /* linear-gradient(60deg,blue,yellow); */
+    /* radial-gradient(rgb(95, 95, 210),rgb(255, 0, 179)); */
+    background: url(./oswald.jpg);
+}
+
+/* #p1{
+    color: yellow;
+    background-color: hsla(235, 81%, 23%, 0.4);
+}    */
+#p2{
+    /* HEXADECIMAL CODE */
+    color: #00fbff;
+    background-color: rgb(255, 0, 102);
+}
+
+#p1{
+    /* alpha transparency */    
+    color:rgb(255, 0, 140);
+    background-color: hsla(233, 92%, 49%, 0.4);
+}

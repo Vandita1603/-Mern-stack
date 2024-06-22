@@ -1,0 +1,87 @@
+.container{
+    min-height: 100vh;
+    width: 100%;
+    background:#401f71;
+}
+.container2{
+    min-height: 100vh;
+    width: 100%;
+    background: #824d74;
+
+}
+.container3{
+    min-height: 100vh;
+    width: 100%;
+    background: #be7b72;
+}
+
+#kvimg{
+    display:flex;
+    padding: 100px;
+    justify-content: center;
+    text-decoration: none;
+    
+}
+
+nav ul li{
+    display:flex;
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+    border: 5px solid violet;
+   
+   
+}
+nav ul{
+    display:flex;
+    text-decoration: none;
+    padding: 20px;
+    justify-content: right;
+    
+}
+nav ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+  
+    color:red;
+    cursor: pointer;
+}
+
+.image{
+    border-radius: 50%;
+    border: 5px solid #be7b72;
+}
+#name{
+    text-align: center;
+    font-size: 30px;
+    color: #fdaf7b;
+}
+#about{
+    color: #401f71;
+    background-color: #fdaf7b;
+}
+#para{
+    font-size: 30px;
+    text-align: center;
+}
+#kvimg{
+    text-align: center;
+    gap: 40px;
+}
+#aboutcontainer3{
+    color: #be7b72;
+    background-color: #401f71;
+}
+.img-vandita
+{
+    display: flex;
+}
+.img-vandita p{
+    padding-top: 60px;
+    padding-left: 20px;
+    font-size: 30px;
+    color: #be7b72;
+}
